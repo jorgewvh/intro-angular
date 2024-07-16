@@ -1,0 +1,31 @@
+.header {
+  text-align: center;
+  width: 100%;
+}
+
+.nav {
+  background-color: #8fd0d8;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 1rem 2rem;
+  transition: all;
+  border: solid white 1px;
+}
+
+.nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  background-color: #cf2e2e;
+}

@@ -1,0 +1,19 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.content {
+  flex: 3;
+  padding: 1rem;
+}
+
+.content article {
+  margin-bottom: 2rem;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+}
